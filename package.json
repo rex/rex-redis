@@ -3,7 +3,7 @@
   "name": "rex-redis",
   "description": "A small collection of utilities to simplify development in a Redis-powered environment.",
   "homepage": "https://github.com/rex/rex-redis",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "lib/rex-redis.js",
   "bin": {
     "rex-redis": "bin/rex-kickstart",
