@@ -1,0 +1,44 @@
+{
+  "author": "Pierce Moore <me@prex.io>",
+  "name": "rex-redis",
+  "description": "A small collection of utilities to simplify development in a Redis-powered environment.",
+  "homepage": "https://github.com/rex/rex-redis",
+  "version": "0.1.0",
+  "main": "lib/rex-redis.js",
+  "bin": {
+    "rex-redis": "bin/rex-kickstart",
+    "rredis": "bin/rex-kickstart"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rex/rex-redis.git"
+  },
+  "keywords": [
+    "redis",
+    "utility",
+    "cli",
+    "shell",
+    "rex"
+  ],
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "dependencies": {
+    "rex-exec": "*",
+    "rex-shell": "*",
+    "optimist": "*"
+  },
+  "devDependencies": {
+    "async": "*"
+  },
+  "config": {},
+  "bugs": {
+    "url": "https://github.com/rex/rex-redis/issues"
+  },
+  "scripts": {
+    "test": "node ./test/rex-redis.test.js"
+  }
+}
