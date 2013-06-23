@@ -29,12 +29,21 @@
   "dependencies": {
     "rex-exec": "*",
     "rex-shell": "*",
+    "rex-utils": "*",
     "optimist": "*"
   },
   "devDependencies": {
     "async": "*"
   },
-  "config": {},
+  "config": {
+    "cli" : {
+      "usage" : "rex-redis [clear|count|help]",
+      "args" : {
+        "clear   " : "Clear all active keys/objects in Redis cache.",
+        "count   " : "Count all active keys/objects in Redis cache."
+      }
+    }
+  },
   "bugs": {
     "url": "https://github.com/rex/rex-redis/issues"
   },
